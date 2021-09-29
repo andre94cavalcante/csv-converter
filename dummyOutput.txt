@@ -1,0 +1,47 @@
+/users
+[
+	{  
+	    "name":"user1_client_2015",  
+	    "role":"Manager",  
+	    "modules": [
+		    { "id": 9, "description": "Neighboring Devices" },
+			{ "id": 10,"description": "Error Predicted Values" }
+		 ]  
+	},
+	
+	...
+	
+	{
+		"name": "user1_client_39",
+		"role": "Manager",
+		"modules": []
+	}
+	
+	...
+]
+
+
+/analisys
+{
+	1: {
+		"chart": [
+			{
+				"name": "var_1",  
+                "data": [
+	                [ 1506951000000, 153.81 ],
+	                ...
+                ]
+            }
+            ...
+        ],
+        "table": [
+	        { 
+		        "var": "var_1", 
+		        "sample_time": 1506951000000, 
+		        "value": 153.81 
+		    },
+	        ...
+        ]
+    },
+    ...
+}
